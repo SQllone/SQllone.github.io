@@ -1,0 +1,64 @@
+<div class="event-pp">
+    <div class="pp_wrapper">
+        <div class="pp_sticky-close">
+            <button
+                type="button"
+                title="Закрыть"
+                class="pp_x-btn x-btn js-ppCloseBtn"
+            >
+         <!--  <svg class="x-btn_icon" width="12" height="12">
+                <use xlink:href="assets/icons/symbols.svg#x"></use>
+            </svg>--> 
+            </button>
+        </div>
+
+        <div class="pp_container">
+            <h2 class="pp_title">Заполните форму <br />и мы подберем площадку</h2>
+            <form class="pp_form form">
+                <div class="radio">
+                    <label class="radio_item">
+                        <input type="radio" name="format" value="master-class" class="radio_input"/>
+                        <span class="radio_marker"></span>
+                        <span class="radio_label">Мастер-класс/семинар</span>
+                    </label>
+                    <label class="radio_item">
+                        <input type="radio" name="format" value="concert" class="radio_input"/>
+                        <span class="radio_marker"></span>
+                        <span class="radio_label">Концерт/выступление</span>
+                    </label>
+                    <label class="radio_item">
+                        <input type="radio" name="format" value="pokaz" class="radio_input"/>
+                        <span class="radio_marker"></span>
+                        <span class="radio_label">Выстовка/показ</span>
+                    </label>
+                    <label class="radio_item">
+                        <input type="radio" name="format" value="other" class="radio_input"/>
+                        <span class="radio_marker"></span>
+                        <span class="radio_label">Другое</span>
+                    </label>
+                </div>
+                <label class="field">
+                    <span class="field_lable">Имя*</span>
+                    <input 
+                    type="text" 
+                    name="Имя" 
+                    placeholder="Имя" 
+                    class="field_input"
+                    required
+                    />
+                </label>
+                <label class="field">
+                    <span class="field_title">
+                        Планируемое количество посетителей:
+                    </span>
+                    <select name="amount" class="filed_select">
+                        <option value="20">до 20 человек</option>
+                        <option value="100">от 20 до 100 человек</option>
+                        <option value="500">от 100 до 500 человек</option>
+                        <option value="1000">более 500 человек</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+    </div>
+</div>
