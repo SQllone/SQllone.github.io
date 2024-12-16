@@ -8,10 +8,14 @@
     backdrop-filter: blur(20px);
     @supports(backdrop-filter: blur(20px)){}
     &_container {
-        .container;
+        box-sizing: border-box;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        width: 100%;
+        max-width: 1414px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     &_logo {
         flex-shrink: 0;
@@ -28,11 +32,10 @@
         display: flex;
         align-items: baseline;
         margin: 0 auto;
-        gap: 50px;
     }
     &_nav-link {
         margin: 0 25px;
-        color: #1f1e1e;
+        color: @black;
         font-weight: 600;
         font-size: 18px;
         line-height: 1.3;
@@ -40,7 +43,7 @@
         transition: color 0.2s;
         &:hover,
         &:active {
-            color: #bc3324;
+            color: @red;
         }
     }
     &_right-block {

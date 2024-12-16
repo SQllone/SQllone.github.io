@@ -1,16 +1,17 @@
 .check {
     box-sizing: border-box;
     position: relative;
-    padding-left: 24px;
     display: inline-flex;
+    flex-direction: column;
     align-items: flex-start;
     min-height: 24px;
     padding-top: 2px;
+    padding-left: 24px;
     color: @black;
     cursor: pointer;
     
     &_input {
-        .is-hidden;
+        .is-hidden();
         &:checked {
             & ~ .check_mark {
             background-color: @black;

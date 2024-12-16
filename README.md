@@ -1,2 +1,2 @@
-[link](https://SQllone.github.io)
+[ссылка](https://SQllone.github.io)
 # SQllone.github.io
