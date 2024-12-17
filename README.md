@@ -1,2 +1,2 @@
-[ссылка](https://SQllone.github.io/dist)
+[ссылка](https://SQllone.github.io)
 # SQllone.github.io
